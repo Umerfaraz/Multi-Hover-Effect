@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    color: white;
+    font-size: 150px;
+    margin: auto;
+    margin-bottom: 70px;
+    border-bottom: 2px solid white;
+}
+
+.elem {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
+
+#Pic{
+    position:absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    object-position: center;
+    object-fit: cover;
+    mix-blend-mode: difference;
+    opacity: 0;
+    /* transform: translate(-50%,-50%); */
+
+}
